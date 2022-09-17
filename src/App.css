@@ -91,7 +91,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: scroll;
-  background-color: var(--swatch-accent);
+  background-color: var(--swatch-accent);   
 }
 
 #playlister-statusbar {
@@ -108,12 +108,22 @@ body {
   float:left;
 }
 
-.list-card, .selected-list-card, .unselected-list-card {
+
+.list-card, .selected-list-card, .unselected-list-card{
   font-size: 18pt;
   margin: 10px;
   padding: 20px;
   border-radius: 25px;
 }
+
+.playlister-song, .playlister-song-dragged-to{
+  background-color: var(--swatch-complement);
+  font-size: 18pt;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 25px;
+}
+
 
 .unselected-list-card:hover {
   cursor: pointer;
